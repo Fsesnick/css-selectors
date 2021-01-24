@@ -1,0 +1,49 @@
+/* Attribute Selectors ------------- */
+/*
+[class]{
+  color:red;
+}
+
+form[class="form-contact"]{
+  padding: 20px 24px;
+  background: #f4f7f8;
+}
+div[id="container"] {
+
+  max-width: 500px;
+  margin: auto;
+}
+*/
+
+.form-contact{
+  padding: 20px 24px;
+  background: #f4f7f8;
+ }
+
+#container{
+  max-width:500px;
+  margin: auto;
+}
+input[type="text"]{
+  background: #fdfee6;
+}
+
+/*irmao adjacente*/
+
+.btn + .btn {
+  margin-left: 20px;
+}
+
+
+/*filho de form*/
+form > a{
+
+  font-size: .7em;
+}
+
+/*irmao geral*/
+h1 ~ label{
+  background: tomato;
+  color: white;
+  padding: 5px;
+}
